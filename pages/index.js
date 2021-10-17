@@ -11,13 +11,12 @@ export default function Home() {
 
             <main>
                 <h1 className="title">
-                    Welcome Tikal Campers to <a href="https://nextjs.org">Next.js!</a>
+                    Welcome Tikal Trivia!!!
                 </h1>
-
-                <p className="description">
-                    Get started by editing <code>pages/index.js</code>
-                </p>
-                <p>Go to about <Link href='/about'>Page</Link> Let's look at the <a href="/about">old way</a></p>
+                <ul>
+                    <li><Link href="/trivia/true-false">True/False</Link></li>
+                    <li><Link href="/trivia/multiple">Multiple</Link></li>
+                </ul>
             </main>
         </div>
     )
