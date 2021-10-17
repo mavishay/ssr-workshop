@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Home() {
     return (
@@ -17,6 +18,7 @@ export default function Home() {
                 <p className="description">
                     Get started by editing <code>pages/index.js</code>
                 </p>
+                <p>Go to about <Link href='/about'>Page</Link> Let's look at the <a href="/about">old way</a></p>
             </main>
         </div>
     )
